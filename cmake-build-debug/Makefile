@@ -122,6 +122,33 @@ ML/fast:
 	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/build
 .PHONY : ML/fast
 
+Net.obj: Net.cpp.obj
+
+.PHONY : Net.obj
+
+# target to build an object file
+Net.cpp.obj:
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Net.cpp.obj
+.PHONY : Net.cpp.obj
+
+Net.i: Net.cpp.i
+
+.PHONY : Net.i
+
+# target to preprocess a source file
+Net.cpp.i:
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Net.cpp.i
+.PHONY : Net.cpp.i
+
+Net.s: Net.cpp.s
+
+.PHONY : Net.s
+
+# target to generate assembly for a file
+Net.cpp.s:
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Net.cpp.s
+.PHONY : Net.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,33 +176,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-net.obj: net.cpp.obj
-
-.PHONY : net.obj
-
-# target to build an object file
-net.cpp.obj:
-	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/net.cpp.obj
-.PHONY : net.cpp.obj
-
-net.i: net.cpp.i
-
-.PHONY : net.i
-
-# target to preprocess a source file
-net.cpp.i:
-	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/net.cpp.i
-.PHONY : net.cpp.i
-
-net.s: net.cpp.s
-
-.PHONY : net.s
-
-# target to generate assembly for a file
-net.cpp.s:
-	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/net.cpp.s
-.PHONY : net.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +185,12 @@ help:
 	@echo ... ML
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Net.obj
+	@echo ... Net.i
+	@echo ... Net.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... net.obj
-	@echo ... net.i
-	@echo ... net.s
 .PHONY : help
 
 

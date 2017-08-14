@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.cpp
+iostream
+-
+Net.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
+
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
+vector
+-
+
 C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/main.cpp
 iostream
 -
+vector
+-
+Net.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ML.dir/main.cpp.obj"
-  "CMakeFiles/ML.dir/net.cpp.obj"
+  "CMakeFiles/ML.dir/Net.cpp.obj"
   "ML.pdb"
   "ML.exe"
   "ML.exe.manifest"

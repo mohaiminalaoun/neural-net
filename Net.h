@@ -10,9 +10,15 @@
 
 using namespace std;
 
+class Neuron{
+
+};
+typedef vector<Neuron> Layer;
+
 class Net {
 
 private:
+    vector<Layer> mLayers;
 
 
 public:

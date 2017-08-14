@@ -80,40 +80,40 @@ CMakeFiles/ML.dir/main.cpp.obj.provides: CMakeFiles/ML.dir/main.cpp.obj.requires
 CMakeFiles/ML.dir/main.cpp.obj.provides.build: CMakeFiles/ML.dir/main.cpp.obj
 
 
-CMakeFiles/ML.dir/net.cpp.obj: CMakeFiles/ML.dir/flags.make
-CMakeFiles/ML.dir/net.cpp.obj: ../net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ML.dir/net.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ML.dir\net.cpp.obj -c "C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\net.cpp"
+CMakeFiles/ML.dir/Net.cpp.obj: CMakeFiles/ML.dir/flags.make
+CMakeFiles/ML.dir/Net.cpp.obj: ../Net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ML.dir/Net.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ML.dir\Net.cpp.obj -c "C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\Net.cpp"
 
-CMakeFiles/ML.dir/net.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML.dir/net.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\net.cpp" > CMakeFiles\ML.dir\net.cpp.i
+CMakeFiles/ML.dir/Net.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ML.dir/Net.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\Net.cpp" > CMakeFiles\ML.dir\Net.cpp.i
 
-CMakeFiles/ML.dir/net.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML.dir/net.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\net.cpp" -o CMakeFiles\ML.dir\net.cpp.s
+CMakeFiles/ML.dir/Net.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ML.dir/Net.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jesse\Downloads\Spring 2016\CS 201\ML\Net.cpp" -o CMakeFiles\ML.dir\Net.cpp.s
 
-CMakeFiles/ML.dir/net.cpp.obj.requires:
+CMakeFiles/ML.dir/Net.cpp.obj.requires:
 
-.PHONY : CMakeFiles/ML.dir/net.cpp.obj.requires
+.PHONY : CMakeFiles/ML.dir/Net.cpp.obj.requires
 
-CMakeFiles/ML.dir/net.cpp.obj.provides: CMakeFiles/ML.dir/net.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/net.cpp.obj.provides.build
-.PHONY : CMakeFiles/ML.dir/net.cpp.obj.provides
+CMakeFiles/ML.dir/Net.cpp.obj.provides: CMakeFiles/ML.dir/Net.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Net.cpp.obj.provides.build
+.PHONY : CMakeFiles/ML.dir/Net.cpp.obj.provides
 
-CMakeFiles/ML.dir/net.cpp.obj.provides.build: CMakeFiles/ML.dir/net.cpp.obj
+CMakeFiles/ML.dir/Net.cpp.obj.provides.build: CMakeFiles/ML.dir/Net.cpp.obj
 
 
 # Object files for target ML
 ML_OBJECTS = \
 "CMakeFiles/ML.dir/main.cpp.obj" \
-"CMakeFiles/ML.dir/net.cpp.obj"
+"CMakeFiles/ML.dir/Net.cpp.obj"
 
 # External object files for target ML
 ML_EXTERNAL_OBJECTS =
 
 ML.exe: CMakeFiles/ML.dir/main.cpp.obj
-ML.exe: CMakeFiles/ML.dir/net.cpp.obj
+ML.exe: CMakeFiles/ML.dir/Net.cpp.obj
 ML.exe: CMakeFiles/ML.dir/build.make
 ML.exe: CMakeFiles/ML.dir/linklibs.rsp
 ML.exe: CMakeFiles/ML.dir/objects1.rsp
@@ -127,7 +127,7 @@ CMakeFiles/ML.dir/build: ML.exe
 .PHONY : CMakeFiles/ML.dir/build
 
 CMakeFiles/ML.dir/requires: CMakeFiles/ML.dir/main.cpp.obj.requires
-CMakeFiles/ML.dir/requires: CMakeFiles/ML.dir/net.cpp.obj.requires
+CMakeFiles/ML.dir/requires: CMakeFiles/ML.dir/Net.cpp.obj.requires
 
 .PHONY : CMakeFiles/ML.dir/requires
 

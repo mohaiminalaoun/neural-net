@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.cpp">
+			<Option target="ML"/>
+		</Unit>
+		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h">
+			<Option target="ML"/>
+		</Unit>
 		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/main.cpp">
-			<Option target="ML"/>
-		</Unit>
-		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/net.cpp">
-			<Option target="ML"/>
-		</Unit>
-		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/net.h">
 			<Option target="ML"/>
 		</Unit>
 		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/CMakeLists.txt">
