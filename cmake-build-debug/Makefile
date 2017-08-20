@@ -149,6 +149,33 @@ Net.cpp.s:
 	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Net.cpp.s
 .PHONY : Net.cpp.s
 
+Neuron.obj: Neuron.cpp.obj
+
+.PHONY : Neuron.obj
+
+# target to build an object file
+Neuron.cpp.obj:
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Neuron.cpp.obj
+.PHONY : Neuron.cpp.obj
+
+Neuron.i: Neuron.cpp.i
+
+.PHONY : Neuron.i
+
+# target to preprocess a source file
+Neuron.cpp.i:
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Neuron.cpp.i
+.PHONY : Neuron.cpp.i
+
+Neuron.s: Neuron.cpp.s
+
+.PHONY : Neuron.s
+
+# target to generate assembly for a file
+Neuron.cpp.s:
+	$(MAKE) -f CMakeFiles\ML.dir\build.make CMakeFiles/ML.dir/Neuron.cpp.s
+.PHONY : Neuron.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... Net.obj
 	@echo ... Net.i
 	@echo ... Net.s
+	@echo ... Neuron.obj
+	@echo ... Neuron.i
+	@echo ... Neuron.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

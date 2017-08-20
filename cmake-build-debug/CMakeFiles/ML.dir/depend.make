@@ -3,7 +3,13 @@
 
 CMakeFiles/ML.dir/Net.cpp.obj: ../Net.cpp
 CMakeFiles/ML.dir/Net.cpp.obj: ../Net.h
+CMakeFiles/ML.dir/Net.cpp.obj: ../Neuron.h
+
+CMakeFiles/ML.dir/Neuron.cpp.obj: ../Net.h
+CMakeFiles/ML.dir/Neuron.cpp.obj: ../Neuron.cpp
+CMakeFiles/ML.dir/Neuron.cpp.obj: ../Neuron.h
 
 CMakeFiles/ML.dir/main.cpp.obj: ../Net.h
+CMakeFiles/ML.dir/main.cpp.obj: ../Neuron.h
 CMakeFiles/ML.dir/main.cpp.obj: ../main.cpp
 

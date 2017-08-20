@@ -7,13 +7,21 @@
 
 
 #include <vector>
+#include <cstdlib>
+#include <cmath>
+#include "Neuron.h"
 
 using namespace std;
 
-class Neuron{
+class Neuron;
 
-};
 typedef vector<Neuron> Layer;
+
+
+
+/*
+ * This is the declaration of the Net class
+ */
 
 class Net {
 
@@ -28,6 +36,7 @@ public:
     void getResults(vector<double> &resultsVals) const;
 
 
+    double mError;
 };
 
 

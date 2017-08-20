@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h">
 			<Option target="ML"/>
 		</Unit>
+		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.cpp">
+			<Option target="ML"/>
+		</Unit>
+		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.h">
+			<Option target="ML"/>
+		</Unit>
 		<Unit filename="C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/main.cpp">
 			<Option target="ML"/>
 		</Unit>

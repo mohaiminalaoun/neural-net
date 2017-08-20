@@ -9,12 +9,36 @@
 C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.cpp
 iostream
 -
+cassert
+-
 Net.h
 C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
+Neuron.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.h
 
 C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
 vector
 -
+cstdlib
+-
+cmath
+-
+Neuron.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.h
+
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.cpp
+Net.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
+Neuron.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.h
+
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Neuron.h
+cstdlib
+-
+vector
+-
+Net.h
+C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/Net.h
 
 C:/Users/Jesse/Downloads/Spring 2016/CS 201/ML/main.cpp
 iostream
